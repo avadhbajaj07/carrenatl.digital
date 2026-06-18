@@ -10,7 +10,6 @@ import { MegaMenuPlatform } from "./megamenus/MegaMenuPlatform";
 import { MegaMenuSolutions } from "./megamenus/MegaMenuSolutions";
 import { MegaMenuFeatures } from "./megamenus/MegaMenuFeatures";
 import { MegaMenuPricing } from "./megamenus/MegaMenuPricing";
-import { MegaMenuResources } from "./megamenus/MegaMenuResources";
 import { MobileNav } from "./MobileNav";
 
 // Moved navItems inside the component to access translations
@@ -34,7 +33,6 @@ export function Header() {
     { label: t("nav_solutions"), menu: "solutions" },
     { label: t("nav_features"), menu: "features" },
     { label: t("nav_pricing"), menu: "pricing" },
-    { label: t("nav_resources"), menu: "resources" },
   ];
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -59,7 +57,6 @@ export function Header() {
       case "solutions": return <MegaMenuSolutions />;
       case "features": return <MegaMenuFeatures />;
       case "pricing": return <MegaMenuPricing />;
-      case "resources": return <MegaMenuResources />;
       default: return null;
     }
   };

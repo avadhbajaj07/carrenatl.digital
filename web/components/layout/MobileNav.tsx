@@ -40,16 +40,6 @@ const navSectionKeys = [
       { key: "notifications", href: "/features#notifications" },
     ],
   },
-  {
-    key: "resources",
-    items: [
-      { key: "getting_started_guide", href: "/resources/guide" },
-      { key: "video_tutorials", href: "/resources/videos" },
-      { key: "help_center", href: "/resources/help" },
-      { key: "blog", href: "/blog" },
-      { key: "downloads", href: "/downloads" },
-    ],
-  },
 ];
 
 interface MobileNavProps {
