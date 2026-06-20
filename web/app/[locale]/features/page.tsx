@@ -1,8 +1,9 @@
 import { Metadata } from "next";
-import { CheckCircle2, Car, Calendar, Users, FileText, CreditCard, BarChart3, Building, Bell } from "lucide-react";
+import Image from "next/image";
+import { CheckCircle2, Car, Calendar, Users, FileText, CreditCard, BarChart3, Building, Bell, Mail } from "lucide-react";
 import { SectionWrapper } from "@/components/shared/SectionWrapper";
-import { GifMockup } from "@/components/shared/GifMockup";
 import { cn } from "@/lib/utils";
+import { featureImages, type FeatureImageId } from "@/lib/featureImages";
 
 export const metadata: Metadata = {
   title: "Features — All Management Tools",
@@ -183,6 +184,28 @@ const featureDetails = [
       "Custom notification templates",
       "Multi-language notification support"
     ]
+  },
+  {
+    id: "email-automation",
+    label: "Email Automation",
+    icon: Mail,
+    emoji: "✉️",
+    headline: "Send the right email at exactly the right moment.",
+    paragraphs: [
+      "Create automated email workflows for confirmations, reminders, receipts, promotions, and post-rental follow-ups. Every message can be triggered by customer, booking, or payment activity.",
+      "Track sends, open rates, and click rates from one dashboard while keeping every customer communication consistent and on brand."
+    ],
+    planBadge: "All Plans",
+    bullets: [
+      "Booking confirmation workflows",
+      "Pickup and return reminders",
+      "Payment receipt automation",
+      "Post-rental follow-up",
+      "Reusable email templates",
+      "Open and click-rate tracking",
+      "Customer and booking triggers",
+      "Campaign performance reporting"
+    ]
   }
 ];
 
@@ -209,6 +232,7 @@ export default function FeaturesPage() {
         {featureDetails.map((feat, idx) => {
           const Icon = feat.icon;
           const isEven = idx % 2 === 0;
+          const featureImage = featureImages[feat.id as FeatureImageId];
 
           return (
             <SectionWrapper 
@@ -223,9 +247,13 @@ export default function FeaturesPage() {
                   "lg:col-span-6",
                   isEven ? "lg:order-1" : "lg:order-2"
                 )}>
-                  <GifMockup 
-                    url={`app.carrental.digital/features/${feat.id}`}
-                    className="w-full shadow-card-lg border border-bg-border/80" 
+                  <Image
+                    src={featureImage.src}
+                    alt={featureImage.alt}
+                    width={1536}
+                    height={1024}
+                    sizes="(min-width: 1024px) 50vw, 100vw"
+                    className="h-auto w-full rounded-2xl border border-bg-border/80 shadow-card-lg"
                   />
                 </div>
 

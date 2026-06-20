@@ -1,11 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { Play } from "lucide-react";
 import { TrustBadges } from "@/components/shared/TrustBadges";
-import { GifMockup } from "@/components/shared/GifMockup";
+
+const HERO_DASHBOARD_IMAGE =
+  "https://res.cloudinary.com/dm4jfxbcs/image/upload/v1781896771/car_rental_dashboard_dvk1dx.png";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -93,17 +96,22 @@ export function HeroSection() {
             </motion.div>
           </motion.div>
 
-          {/* Right: Simulated App Screen Mockup */}
+          {/* Right: Product dashboard preview */}
           <motion.div
             initial={{ x: 60, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ type: "spring", stiffness: 80, damping: 18, delay: 0.3 }}
             className="lg:col-span-6 relative w-full"
           >
-            <GifMockup className="w-full relative z-10" />
-            
-            {/* Visual glow backdrop behind the laptop mockup */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4/5 h-4/5 bg-brand-blue/15 rounded-full blur-[80px] -z-10" />
+            <Image
+              src={HERO_DASHBOARD_IMAGE}
+              alt="CarRental.digital dashboard showing fleet and booking operations"
+              width={2400}
+              height={1792}
+              priority
+              sizes="(min-width: 1024px) 50vw, 100vw"
+              className="relative z-10 h-auto w-full"
+            />
           </motion.div>
 
         </div>

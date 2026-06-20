@@ -1,9 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Globe, Monitor, UserCheck } from "lucide-react";
 import { SectionWrapper } from "../shared/SectionWrapper";
-import { GifMockup } from "../shared/GifMockup";
+
+const SYSTEM_PREVIEW_IMAGE =
+  "https://res.cloudinary.com/dm4jfxbcs/image/upload/v1781900250/car_rental_website_hero_section_ktfnfp.jpg";
 
 const calloutKeys = ["item_1", "item_2", "item_3"];
 const calloutIcons = [Globe, Monitor, UserCheck];
@@ -24,7 +27,14 @@ export function WhatIsSection() {
 
       {/* Large system screen preview */}
       <div className="mb-16">
-        <GifMockup className="w-full max-w-5xl mx-auto shadow-card-lg border border-bg-border/60" />
+        <Image
+          src={SYSTEM_PREVIEW_IMAGE}
+          alt="CarRental.digital website and rental management platform preview"
+          width={2400}
+          height={1792}
+          sizes="(min-width: 1280px) 1024px, 100vw"
+          className="mx-auto h-auto w-full max-w-5xl rounded-2xl border border-bg-border/60 shadow-card-lg"
+        />
       </div>
 
       {/* 3 Column Feature Cards */}

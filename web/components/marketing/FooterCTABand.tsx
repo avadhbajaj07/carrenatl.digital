@@ -15,7 +15,10 @@ export function FooterCTABand() {
           Get Started Today
         </span>
         
-        <h2 className="text-h2-mobile sm:text-h1-desktop font-heading font-800 text-white leading-tight tracking-tight">
+        <h2
+          className="text-h2-mobile sm:text-h1-desktop font-heading font-800 leading-tight tracking-tight"
+          style={{ color: "#ffffff" }}
+        >
           Stop Losing Bookings. Stop Losing Data. <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue-light to-emerald-400">
             Start Running a Proper Business.
