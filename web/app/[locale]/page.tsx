@@ -6,7 +6,6 @@ import { HowItWorks } from "@/components/marketing/HowItWorks";
 import { SocialProof } from "@/components/marketing/SocialProof";
 import { SupportBand } from "@/components/marketing/SupportBand";
 import { PricingSection } from "@/components/marketing/PricingSection";
-import { GifShowcase } from "@/components/marketing/GifShowcase";
 import { FaqSection } from "@/components/marketing/FaqSection";
 import { DownloadStrip } from "@/components/marketing/DownloadStrip";
 import { FooterCTABand } from "@/components/marketing/FooterCTABand";
@@ -24,7 +23,6 @@ export default function Home() {
       <SocialProof />
       <SupportBand />
       <PricingSection />
-      <GifShowcase />
       <FaqSection />
       <DownloadStrip />
       <FooterCTABand />

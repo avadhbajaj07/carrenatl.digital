@@ -1,13 +1,14 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
-  Car, Calendar, Users, FileText, CreditCard, 
-  BarChart3, Building, Bell, CheckCircle2, ChevronDown 
+  Car, Calendar, Users, FileText, CreditCard,
+  BarChart3, Building, Bell, Mail, CheckCircle2, ChevronDown
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { GifMockup } from "../shared/GifMockup";
+import { featureImages, type FeatureImageId } from "@/lib/featureImages";
 
 const tabsData = [
   {
@@ -86,17 +87,16 @@ const tabsData = [
     icon: CreditCard,
     emoji: "💳",
     headline: "Get paid faster. Track every penny.",
-    content: "CarRental.digital handles all payment flows — deposits, pre-authorizations, balance payments, refunds, and late fees. Issue invoices automatically, send payment links by email or SMS, and accept major payment methods. Multi-currency support built in for businesses operating across borders.",
+    content: "CarRental.digital handles deposits, pre-authorizations, balance payments, refunds, and late fees. Issue invoices automatically, send payment links, and track every transaction from one dashboard.",
     bullets: [
       "Auto-generated invoices",
-      "Payment link via email and SMS",
-      "Deposit and pre-authorization",
-      "Multi-currency (EUR, USD, GBP, and more)",
-      "VAT / tax calculation per country",
+      "Payment links via email and SMS",
+      "Deposit and pre-authorization tracking",
+      "Multi-currency support",
       "Partial payment and balance tracking",
       "Refund management",
       "Payment gateway integrations",
-      "Revenue summary by date, vehicle, or branch"
+      "Revenue summaries and aging reports"
     ]
   },
   {
@@ -151,6 +151,24 @@ const tabsData = [
       "Custom notification templates",
       "Multi-language notification support"
     ]
+  },
+  {
+    id: "email-automation",
+    label: "Email Automation",
+    icon: Mail,
+    emoji: "✉️",
+    headline: "Send the right email at exactly the right moment.",
+    content: "Build automated email workflows for every stage of the rental journey. Confirm bookings, remind customers before pickup, send receipts, follow up after returns, and track delivery and engagement from one place.",
+    bullets: [
+      "Booking confirmation workflows",
+      "Pickup and return reminders",
+      "Payment receipt automation",
+      "Post-rental follow-up",
+      "Reusable email templates",
+      "Open and click-rate tracking",
+      "Customer and booking triggers",
+      "Campaign performance reporting"
+    ]
   }
 ];
 
@@ -159,6 +177,7 @@ export function FeatureTabs() {
   const [mobileOpenSection, setMobileOpenSection] = useState<string | null>("fleet");
 
   const currentTab = tabsData.find((t) => t.id === activeTab) || tabsData[0];
+  const currentImage = featureImages[currentTab.id as FeatureImageId];
 
   const handleMobileToggle = (id: string) => {
     if (mobileOpenSection === id) {
@@ -220,9 +239,13 @@ export function FeatureTabs() {
             >
               {/* Left Side: Browser Mockup */}
               <div className="col-span-6">
-                <GifMockup 
-                  url={`app.carrental.digital/features/${currentTab.id}`}
-                  className="w-full shadow-card-lg border border-bg-border/60"
+                <Image
+                  src={currentImage.src}
+                  alt={currentImage.alt}
+                  width={1536}
+                  height={1024}
+                  sizes="50vw"
+                  className="h-auto w-full rounded-2xl border border-bg-border/60 shadow-card-lg"
                 />
               </div>
 
@@ -263,6 +286,7 @@ export function FeatureTabs() {
           {tabsData.map((tab) => {
             const Icon = tab.icon;
             const isOpen = mobileOpenSection === tab.id;
+            const tabImage = featureImages[tab.id as FeatureImageId];
             return (
               <div 
                 key={tab.id} 
@@ -304,9 +328,13 @@ export function FeatureTabs() {
                     >
                       <div className="p-5 space-y-6">
                         {/* Browser Mockup */}
-                        <GifMockup 
-                          url={`app.carrental.digital/features/${tab.id}`}
-                          className="w-full shadow-card-sm border border-bg-border"
+                        <Image
+                          src={tabImage.src}
+                          alt={tabImage.alt}
+                          width={1536}
+                          height={1024}
+                          sizes="100vw"
+                          className="h-auto w-full rounded-2xl border border-bg-border shadow-card-sm"
                         />
 
                         {/* Copy */}
