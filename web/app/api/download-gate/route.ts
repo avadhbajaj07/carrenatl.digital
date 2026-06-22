@@ -52,11 +52,11 @@ export async function POST(request: NextRequest) {
           Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
         },
         body: JSON.stringify({
-          from: "CarRental.digital <hello@carrental.digital>",
+          from: "HyRento <hello@hyrento.com>",
           to: email,
           subject: `Your download: ${sanitizedTitle}`,
-          html: `<p>Thanks for downloading <strong>${sanitizedTitle}</strong> from CarRental.digital.</p>
-                 <p>If you have any questions, reply to this email or visit <a href="https://carrental.digital/contact">our contact page</a>.</p>`,
+          html: `<p>Thanks for downloading <strong>${sanitizedTitle}</strong> from HyRento.</p>
+                 <p>If you have any questions, reply to this email or visit <a href="https://hyrento.com/contact">our contact page</a>.</p>`,
         }),
       });
       if (!resendRes.ok) {

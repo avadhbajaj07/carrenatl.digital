@@ -57,7 +57,7 @@ export function Footer() {
                 <Car className="w-5 h-5 text-white" />
               </div>
               <span className="font-heading font-700 text-white text-[16px] tracking-tight">
-                CarRental.digital
+                HyRento
               </span>
             </Link>
             <p className="text-[14px] font-body leading-relaxed mb-5" style={{ color: "rgba(255,255,255,0.6)", maxWidth: "240px" }}>
@@ -146,14 +146,7 @@ export function Footer() {
         <div className="footer-bottom">
           <div>
             <p className="text-[13px] font-body" style={{ color: "rgba(255,255,255,0.4)" }}>
-              © {new Date().getFullYear()} CarRental.digital. {t("all_rights_reserved")}
-            </p>
-            <p className="text-[12px] font-body mt-1" style={{ color: "rgba(255,255,255,0.3)" }}>
-              {t("product_of")}{" "}
-              <a href="#" className="underline transition-colors" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Maruti Digital India
-              </a>{" "}
-              — {t("building_digital")}
+              © {new Date().getFullYear()} HyRento. {t("all_rights_reserved")}
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-4">

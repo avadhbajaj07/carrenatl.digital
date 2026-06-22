@@ -44,7 +44,7 @@ export function DownloadCard({
           <div className="h-0.5 w-6 bg-brand-green" />
         </div>
         <div className="text-[7px] font-body text-slate-400 font-medium">
-          CarRental.digital
+          HyRento
         </div>
       </div>
 

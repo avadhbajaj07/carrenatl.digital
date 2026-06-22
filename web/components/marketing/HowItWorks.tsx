@@ -61,7 +61,7 @@ export function HowItWorks() {
         {/* Right: Simulated Dashboard Transformation Preview */}
         <div className="lg:col-span-7">
           <GifMockup 
-            url="app.carrental.digital/setup-wizard" 
+            url="app.hyrento.com/setup-wizard" 
             className="w-full shadow-card-lg border border-bg-border/60"
           />
         </div>

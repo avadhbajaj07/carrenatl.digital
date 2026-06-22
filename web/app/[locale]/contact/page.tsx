@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MessageSquare, Mail, Phone, MapPin, CheckCircle2, Clock } from "lucide-react";
+import { MessageSquare, Mail, MapPin, CheckCircle2, Clock } from "lucide-react";
 import { SectionWrapper } from "@/components/shared/SectionWrapper";
 import { useTranslations } from "next-intl";
 
@@ -245,20 +245,22 @@ export default function ContactPage() {
             </div>
 
             <div className="space-y-6">
-              {/* Live Chat info */}
+              {/* Support Email */}
               <div className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-brand-blue-pale text-brand-blue flex items-center justify-center shrink-0">
-                  <MessageSquare className="w-5 h-5" />
+                  <Mail className="w-5 h-5" />
                 </div>
                 <div>
                   <h4 className="font-heading font-700 text-body-sm text-brand-navy">
                     {t("live_chat_title")}
                   </h4>
                   <p className="font-body text-body-sm text-text-secondary mt-0.5">
-                    {t("live_chat_desc")}
+                    <a href="mailto:support@hyrento.com" className="hover:underline text-brand-blue font-500">
+                      support@hyrento.com
+                    </a>
                   </p>
                   <p className="text-[10px] font-heading font-700 text-brand-green mt-1 flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-online-dot animate-pulse" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse" />
                     <span>{t("live_chat_response_time")}</span>
                   </p>
                 </div>
@@ -274,8 +276,8 @@ export default function ContactPage() {
                     {t("email_title")}
                   </h4>
                   <p className="font-body text-body-sm text-text-secondary mt-0.5">
-                    <a href="mailto:hello@hyrivo.com" className="hover:underline text-brand-blue font-500">
-                      hello@hyrivo.com
+                    <a href="mailto:support@hyrento.com" className="hover:underline text-brand-blue font-500">
+                      support@hyrento.com
                     </a>
                   </p>
                   <p className="font-body text-[11px] text-text-muted mt-0.5">
@@ -284,18 +286,18 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Phone info */}
+              {/* Additional Email */}
               <div className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-500 flex items-center justify-center shrink-0">
-                  <Phone className="w-5 h-5" />
+                  <Mail className="w-5 h-5" />
                 </div>
                 <div>
                   <h4 className="font-heading font-700 text-body-sm text-brand-navy">
                     {t("phone_title")}
                   </h4>
                   <p className="font-body text-body-sm text-text-secondary mt-0.5">
-                    <a href="tel:+18005550100" className="hover:underline text-brand-blue font-500">
-                      +1 800 555 0100
+                    <a href="mailto:info@hyrento.com" className="hover:underline text-brand-blue font-500">
+                      info@hyrento.com
                     </a>
                   </p>
                   <p className="font-body text-[11px] text-text-muted mt-0.5">

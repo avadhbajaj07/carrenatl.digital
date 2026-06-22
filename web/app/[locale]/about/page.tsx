@@ -5,16 +5,17 @@ import { getTranslations } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "About Us — Our Mission & Story",
-  description: "Learn about CarRental.digital, a product of Maruti Digital India. Discover our mission to empower independent car rental operators in the US and Europe.",
+  description: "Learn about HyRento. Discover our mission to empower independent car rental operators in the US and Europe.",
 };
 
 const valueCardIcons = [Heart, ShieldCheck, Globe];
 
 const teamMembers = [
-  { nameKey: "team_1_name", roleKey: "team_1_role", divisionKey: "team_1_division", initials: "AV" },
-  { nameKey: "team_2_name", roleKey: "team_2_role", divisionKey: "team_2_division", initials: "JM" },
-  { nameKey: "team_3_name", roleKey: "team_3_role", divisionKey: "team_3_division", initials: "DK" },
-  { nameKey: "team_4_name", roleKey: "team_4_role", divisionKey: "team_4_division", initials: "SR" }
+  { nameKey: "team_1_name", roleKey: "team_1_role", divisionKey: "team_1_division", initials: "SB" },
+  { nameKey: "team_2_name", roleKey: "team_2_role", divisionKey: "team_2_division", initials: "AB" },
+  { nameKey: "team_3_name", roleKey: "team_3_role", divisionKey: "team_3_division", initials: "AM" },
+  { nameKey: "team_4_name", roleKey: "team_4_role", divisionKey: "team_4_division", initials: "AJ" },
+  { nameKey: "team_5_name", roleKey: "team_5_role", divisionKey: "team_5_division", initials: "JN" },
 ];
 
 export default async function AboutPage() {
@@ -111,7 +112,7 @@ export default async function AboutPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 max-w-5xl mx-auto">
           {teamMembers.map((member, idx) => (
             <div key={idx} className="bg-white border border-bg-border rounded-xl p-6 text-center shadow-card-sm hover:shadow-card-md transition-shadow">
               {/* Fallback initials avatar */}

@@ -16,7 +16,7 @@ const brochuresList = [
     languages: ["EN", "DE", "FR", "ES", "NL"],
     fileSize: "2.4 MB",
     uploadDate: "June 2026",
-    pdfUrl: "/downloads/CarRental_Product_Overview.pdf",
+    pdfUrl: "/downloads/HyRento_Product_Overview.pdf",
     gated: false
   },
   {
@@ -26,7 +26,7 @@ const brochuresList = [
     languages: ["EN", "DE"],
     fileSize: "4.1 MB",
     uploadDate: "June 2026",
-    pdfUrl: "/downloads/CarRental_Platform_Deep_Dive.pdf",
+    pdfUrl: "/downloads/HyRento_Platform_Deep_Dive.pdf",
     gated: false
   },
   {
@@ -36,7 +36,7 @@ const brochuresList = [
     languages: ["EN", "DE", "FR", "ES", "NL"],
     fileSize: "1.8 MB",
     uploadDate: "June 2026",
-    pdfUrl: "/downloads/CarRental_Pricing_Guide.pdf",
+    pdfUrl: "/downloads/HyRento_Pricing_Guide.pdf",
     gated: true
   },
   {

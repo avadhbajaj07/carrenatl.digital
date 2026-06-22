@@ -81,7 +81,7 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
                 <div className="w-7 h-7 bg-brand-navy rounded-md flex items-center justify-center">
                   <Car className="w-4 h-4 text-white" />
                 </div>
-                <span className="font-heading font-700 text-brand-navy text-[15px]">CarRental.digital</span>
+                <span className="font-heading font-700 text-brand-navy text-[15px]">HyRento</span>
               </div>
               <button
                 onClick={onClose}

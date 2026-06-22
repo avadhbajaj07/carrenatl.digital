@@ -19,7 +19,7 @@ interface GifMockupProps {
   url?: string;
 }
 
-export function GifMockup({ src, className, url = "app.carrental.digital" }: GifMockupProps) {
+export function GifMockup({ src, className, url = "app.hyrento.com" }: GifMockupProps) {
   return (
     <div className={cn("browser-frame bg-slate-900 border border-slate-800 shadow-card-lg relative group overflow-hidden", className)}>
       {/* Browser Top Bar */}
@@ -53,7 +53,7 @@ export function GifMockup({ src, className, url = "app.carrental.digital" }: Gif
                   <div className="w-6 h-6 bg-brand-blue rounded flex items-center justify-center">
                     <Car className="w-3.5 h-3.5 text-white" />
                   </div>
-                  <span className="font-heading font-700 text-white tracking-tight">CarRental</span>
+                  <span className="font-heading font-700 text-white tracking-tight">HyRento</span>
                 </div>
                 
                 <nav className="space-y-1">
