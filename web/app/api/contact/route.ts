@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { createHubSpotContact } from "@/lib/hubspot";
 import { sendWelcomeEmail } from "@/lib/resend";
+import { sendContactNotificationEmail } from "@/lib/smtp";
 
 export async function POST(req: Request) {
   try {
@@ -36,11 +37,22 @@ export async function POST(req: Request) {
     // 2. Trigger Resend welcome email (mocked if API Key missing)
     const emailSuccess = await sendWelcomeEmail(email, name);
 
+    // 3. Trigger SMTP notification email to admin/sales
+    const smtpSuccess = await sendContactNotificationEmail({
+      name,
+      email,
+      company,
+      fleetSize,
+      planInterest,
+      message
+    });
+
     return NextResponse.json({
       success: true,
       message: "Contact form submitted successfully",
       crmSync: crmSuccess,
       emailSent: emailSuccess,
+      smtpSent: smtpSuccess,
       submittedMessage: message
     });
   } catch (error: unknown) {
