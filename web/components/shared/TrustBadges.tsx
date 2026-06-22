@@ -9,7 +9,7 @@ const badges = [
   { icon: Zap, label: "100% Speed Guaranteed", desc: "Instantly loading client engines", color: "text-amber-500", bg: "bg-amber-500/10" },
   { icon: ShieldCheck, label: "Zero Errors Policy", desc: "No double bookings, guaranteed", color: "text-emerald-500", bg: "bg-emerald-500/10" },
   { icon: Cloud, label: "100% Cloud Based", desc: "Access anywhere, EU & US servers", color: "text-blue-500", bg: "bg-blue-500/10" },
-  { icon: PhoneCall, label: "24/7 Live Support", desc: "Real humans response under 3m", color: "text-indigo-500", bg: "bg-indigo-500/10" },
+  { icon: PhoneCall, label: "24/7 Live Support", desc: "Average response under 3m", color: "text-indigo-500", bg: "bg-indigo-500/10" },
 ];
 
 export function TrustBadges({ className }: TrustBadgesProps) {

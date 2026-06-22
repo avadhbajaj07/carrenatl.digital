@@ -162,13 +162,6 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
               >
                 {t("start_free_trial")}
               </Link>
-              <Link
-                href="/login"
-                onClick={onClose}
-                className="block w-full text-center py-3 border border-bg-border text-text-secondary font-heading font-600 rounded-md hover:bg-bg-soft transition-all"
-              >
-                {t("login")}
-              </Link>
               {/* Language row */}
               <div className="flex items-center justify-center gap-3 pt-1">
                 {[

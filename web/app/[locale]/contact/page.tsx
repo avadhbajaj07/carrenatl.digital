@@ -274,8 +274,8 @@ export default function ContactPage() {
                     {t("email_title")}
                   </h4>
                   <p className="font-body text-body-sm text-text-secondary mt-0.5">
-                    <a href="mailto:hello@carrental.digital" className="hover:underline text-brand-blue font-500">
-                      hello@carrental.digital
+                    <a href="mailto:hello@hyrivo.com" className="hover:underline text-brand-blue font-500">
+                      hello@hyrivo.com
                     </a>
                   </p>
                   <p className="font-body text-[11px] text-text-muted mt-0.5">

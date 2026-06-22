@@ -95,7 +95,7 @@
     "badge": "24/7 Support",
     "heading_line_1": "You're Never Alone.",
     "heading_line_2": "24 Hours. 7 Days. 365 Days.",
-    "subheading": "Real humans. Real answers. Any hour of the day or night. Whether you're setting up, scaling up, or solving an issue — our support team is always available by chat, email, or phone.",
+    "subheading": "Clear answers, any hour of the day or night. Whether you're setting up, scaling up, or solving an issue, our support team is available by chat, email, or phone.",
     "cta_button": "Talk to Our Team Now",
     "channel_1_label": "Live Chat",
     "channel_1_desc": "Average response: under 3 minutes",
@@ -268,7 +268,6 @@
   },
   "Footer": {
     "tagline": "The complete operating system for car rental businesses. Built for rental operators in the US and Europe.",
-    "markets": "🇺🇸 🇪🇺 Serving US & European Markets",
     "platform_heading": "Platform",
     "company_heading": "Company",
     "support_heading": "Support",
@@ -282,11 +281,9 @@
     "platform_pricing": "Pricing",
     "platform_solutions": "Solutions",
     "platform_system_demo": "System Demo",
-    "platform_downloads": "Downloads",
     "company_about": "About",
     "company_contact_sales": "Contact Sales",
-    "support_contact_us": "Contact Us",
-    "support_support_line": "24/7 Support: +1 800 555 0100"
+    "support_contact_us": "Contact Us"
   },
   "ContactPage": {
     "badge": "Get in Touch",
@@ -313,17 +310,17 @@
     "form_submit": "Send Message",
     "response_time": "Average response: under 1 hour during business hours.",
     "other_ways_title": "Other Ways to Connect",
-    "other_ways_desc": "Need immediate support? Reach out directly using any of the contact channels below.",
+    "other_ways_desc": "Need immediate support? Reach out using any of the channels below.",
     "live_chat_title": "Live Chat Support",
-    "live_chat_desc": "Speak with our team instantly using the chat widget in the bottom right corner of the screen.",
-    "live_chat_response_time": "Online Now — response under 3 minutes",
+    "live_chat_desc": "Speak with our team instantly using the chat widget in the bottom-right corner of the screen.",
+    "live_chat_response_time": "Online now — typical response time under 3 minutes",
     "email_title": "Email Correspondence",
-    "email_desc": "For sales enquiries, partnership offers, or general questions.",
-    "phone_title": "Worldwide Support Line",
-    "phone_desc": "Available 24 hours, 7 days a week, for urgent questions and setup support.",
-    "offices_title": "Main Offices",
-    "offices_us": "🇺🇸 US Office: Austin, Texas",
-    "offices_eu": "🇪🇺 EU Office: Berlin, Germany"
+    "email_desc": "For sales enquiries, partnership opportunities, or general questions.",
+    "phone_title": "Worldwide Support",
+    "phone_desc": "Available 24/7 for urgent questions and onboarding assistance.",
+    "offices_title": "Global Remote Team",
+    "offices_us": "CarRental.digital operates as a remote-first company, supporting customers worldwide across multiple time zones.",
+    "offices_eu": "Serving businesses across North America, Europe, and beyond."
   },
   "DemoPage": {
     "date_1": "Tomorrow",

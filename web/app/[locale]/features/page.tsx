@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/image";
-import { CheckCircle2, Car, Calendar, Users, FileText, CreditCard, BarChart3, Building, Bell, Mail } from "lucide-react";
+import { CheckCircle2, Car, Calendar, Users, FileText, CreditCard, BarChart3, Building, Bell } from "lucide-react";
 import { SectionWrapper } from "@/components/shared/SectionWrapper";
 import { cn } from "@/lib/utils";
 import { featureImages, type FeatureImageId } from "@/lib/featureImages";
@@ -183,28 +183,6 @@ const featureDetails = [
       "Maintenance alerts for your team",
       "Custom notification templates",
       "Multi-language notification support"
-    ]
-  },
-  {
-    id: "email-automation",
-    label: "Email Automation",
-    icon: Mail,
-    emoji: "✉️",
-    headline: "Send the right email at exactly the right moment.",
-    paragraphs: [
-      "Create automated email workflows for confirmations, reminders, receipts, promotions, and post-rental follow-ups. Every message can be triggered by customer, booking, or payment activity.",
-      "Track sends, open rates, and click rates from one dashboard while keeping every customer communication consistent and on brand."
-    ],
-    planBadge: "All Plans",
-    bullets: [
-      "Booking confirmation workflows",
-      "Pickup and return reminders",
-      "Payment receipt automation",
-      "Post-rental follow-up",
-      "Reusable email templates",
-      "Open and click-rate tracking",
-      "Customer and booking triggers",
-      "Campaign performance reporting"
     ]
   }
 ];
