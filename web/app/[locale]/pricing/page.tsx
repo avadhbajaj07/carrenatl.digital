@@ -6,7 +6,7 @@ import { SectionWrapper } from "@/components/shared/SectionWrapper";
 
 export const metadata: Metadata = {
   title: "Pricing — Simple, Honest Rates",
-  description: "Review subscription options for CarRental.digital. Starter, Professional, and Enterprise plans with no hidden fees and no transaction commissions.",
+  description: "Review subscription options for HyRento. Starter, Professional, and Enterprise plans with no hidden fees and no transaction commissions.",
 };
 
 const pricingFaqs = [

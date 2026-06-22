@@ -17,7 +17,7 @@ const tabsData = [
     icon: Car,
     emoji: "🚘",
     headline: "Always know exactly where your fleet stands.",
-    content: "With CarRental.digital, every vehicle in your fleet has its own profile. See status in real time — available, rented, in maintenance, or reserved. Track mileage, service history, damage logs, documents (insurance, registration), and upcoming maintenance schedules. Never lose track of a vehicle again.",
+    content: "With HyRento, every vehicle in your fleet has its own profile. See status in real time — available, rented, in maintenance, or reserved. Track mileage, service history, damage logs, documents (insurance, registration), and upcoming maintenance schedules. Never lose track of a vehicle again.",
     bullets: [
       "Real-time vehicle status board",
       "Individual vehicle profiles (docs, history, photos)",
@@ -52,7 +52,7 @@ const tabsData = [
     icon: Users,
     emoji: "👤",
     headline: "Every customer. Every rental. Every note. In one place.",
-    content: "Build real relationships with your renters. CarRental.digital stores the complete profile of every customer — contact details, ID documents, rental history, payment records, and any internal notes your team adds. You can see at a glance who your best customers are, what they rented, and when they're coming back.",
+    content: "Build real relationships with your renters. HyRento stores the complete profile of every customer — contact details, ID documents, rental history, payment records, and any internal notes your team adds. You can see at a glance who your best customers are, what they rented, and when they're coming back.",
     bullets: [
       "Complete customer profiles",
       "Rental history per customer",
@@ -70,7 +70,7 @@ const tabsData = [
     icon: FileText,
     emoji: "✍️",
     headline: "Digital contracts. Signed in seconds. Stored forever.",
-    content: "No more printing, scanning, or filing paper agreements. CarRental.digital generates rental agreements automatically based on the booking — pre-filled with vehicle info, customer details, rental dates, and pricing. The customer signs digitally on any device. The signed document is saved permanently and accessible anytime.",
+    content: "No more printing, scanning, or filing paper agreements. HyRento generates rental agreements automatically based on the booking — pre-filled with vehicle info, customer details, rental dates, and pricing. The customer signs digitally on any device. The signed document is saved permanently and accessible anytime.",
     bullets: [
       "Auto-generated rental agreements",
       "E-signature (works on any device)",
@@ -87,7 +87,7 @@ const tabsData = [
     icon: CreditCard,
     emoji: "💳",
     headline: "Get paid faster. Track every penny.",
-    content: "CarRental.digital handles deposits, pre-authorizations, balance payments, refunds, and late fees. Issue invoices automatically, send payment links, and track every transaction from one dashboard.",
+    content: "HyRento handles deposits, pre-authorizations, balance payments, refunds, and late fees. Issue invoices automatically, send payment links, and track every transaction from one dashboard.",
     bullets: [
       "Auto-generated invoices",
       "Payment links via email and SMS",
@@ -105,7 +105,7 @@ const tabsData = [
     icon: BarChart3,
     emoji: "📈",
     headline: "Stop guessing. Start knowing.",
-    content: "Your business generates data every day. CarRental.digital turns it into clear, actionable reports. See which vehicles earn the most, which sit idle too long, how revenue compares month to month, and where your customers come from. Make better decisions. Grow faster.",
+    content: "Your business generates data every day. HyRento turns it into clear, actionable reports. See which vehicles earn the most, which sit idle too long, how revenue compares month to month, and where your customers come from. Make better decisions. Grow faster.",
     bullets: [
       "Revenue reports by day, month, vehicle, branch",
       "Fleet utilization rate",
@@ -123,7 +123,7 @@ const tabsData = [
     icon: Building,
     emoji: "🏢",
     headline: "One system. Multiple branches. Multiple brands.",
-    content: "Running more than one location? More than one brand? No problem. CarRental.digital supports multi-location and multi-brand setups from a single admin login. Switch between branches, view performance per location, and manage separate vehicle pools — all under the same subscription.",
+    content: "Running more than one location? More than one brand? No problem. HyRento supports multi-location and multi-brand setups from a single admin login. Switch between branches, view performance per location, and manage separate vehicle pools — all under the same subscription.",
     bullets: [
       "Unlimited locations per plan",
       "Separate fleet pools per location",
@@ -140,7 +140,7 @@ const tabsData = [
     icon: Bell,
     emoji: "🔔",
     headline: "Your business runs — even when you're not at your desk.",
-    content: "CarRental.digital automates the repetitive communication your team handles every day. Booking confirmations, payment reminders, contract signing requests, return reminders, and review requests — all sent automatically at the right moment, branded as your business.",
+    content: "HyRento automates the repetitive communication your team handles every day. Booking confirmations, payment reminders, contract signing requests, return reminders, and review requests — all sent automatically at the right moment, branded as your business.",
     bullets: [
       "Booking confirmation — auto email & SMS",
       "Payment reminders",

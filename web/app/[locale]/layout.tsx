@@ -24,13 +24,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://carrental.digital"),
+  metadataBase: new URL("https://hyrento.com"),
   title: {
-    default: "CarRental.digital — The Complete Operating System for Car Rental Businesses",
-    template: "%s | CarRental.digital",
+    default: "HyRento — The Complete Operating System for Car Rental Businesses",
+    template: "%s | HyRento",
   },
   description:
-    "CarRental.digital gives you everything — your own website, booking engine, fleet control, CRM, invoicing, contracts, and real-time reports. Built for rental operators in the US and Europe.",
+    "HyRento gives you everything — your own website, booking engine, fleet control, CRM, invoicing, contracts, and real-time reports. Built for rental operators in the US and Europe.",
   keywords: [
     "car rental software",
     "fleet management system",
@@ -39,16 +39,17 @@ export const metadata: Metadata = {
     "rental business software",
     "fleet management",
     "car rental management",
+    "HyRento",
   ],
-  authors: [{ name: "Maruti Digital India" }],
-  creator: "Maruti Digital India",
-  publisher: "Maruti Digital India",
+  authors: [{ name: "HyRento" }],
+  creator: "HyRento",
+  publisher: "HyRento",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://carrental.digital",
-    siteName: "CarRental.digital",
-    title: "CarRental.digital — The Complete Operating System for Car Rental Businesses",
+    url: "https://hyrento.com",
+    siteName: "HyRento",
+    title: "HyRento — The Complete Operating System for Car Rental Businesses",
     description:
       "Run your entire car rental business from one powerful system. Online booking, fleet management, CRM, contracts, and analytics — all included.",
     images: [
@@ -56,13 +57,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CarRental.digital — Car Rental Management System",
+        alt: "HyRento — Car Rental Management System",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CarRental.digital — The Complete Operating System for Car Rental Businesses",
+    title: "HyRento — The Complete Operating System for Car Rental Businesses",
     description:
       "Run your entire car rental business from one powerful system.",
     images: ["/og-image.png"],
@@ -95,35 +96,29 @@ export default async function RootLayout({
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "CarRental.digital",
-    url: "https://carrental.digital",
-    logo: "https://carrental.digital/logo.png",
+    name: "HyRento",
+    url: "https://hyrento.com",
+    logo: "https://hyrento.com/logo.png",
     description: "The Complete Operating System for Car Rental Businesses — serving the US and European markets.",
-    parentOrganization: {
-      "@type": "Organization",
-      name: "Maruti Digital India",
-      url: "https://marutidigital.in",
-    },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+1-800-555-0100",
+      email: "support@hyrento.com",
       contactType: "Customer Support",
       availableLanguage: ["English", "German", "French", "Spanish", "Dutch"],
       hoursAvailable: "Mo-Su 00:00-23:59",
     },
     sameAs: [
-      "https://www.linkedin.com/company/carrental-digital",
-      "https://twitter.com/carrentaldigital",
+      "https://www.linkedin.com/company/hyrento",
     ],
   };
 
   const softwareSchema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "CarRental.digital",
+    name: "HyRento",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
-    url: "https://carrental.digital",
+    url: "https://hyrento.com",
     description:
       "Cloud-based car rental management system covering fleet management, online booking, CRM, digital contracts, payments, and analytics.",
     offers: [

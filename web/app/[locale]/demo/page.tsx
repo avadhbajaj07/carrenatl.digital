@@ -211,7 +211,7 @@ export default function DemoPage() {
                   {t("direct_conversation_title")}
                 </h4>
                 <p className="font-body text-[11px] text-text-secondary mt-0.5">
-                  {t("direct_conversation_desc_prefix")}<a href="tel:+18005550100" className="hover:underline text-brand-blue font-500">+1 800 555 0100</a>{t("direct_conversation_desc_suffix")}
+                  {t("direct_conversation_desc_prefix")}<a href="mailto:support@hyrento.com" className="hover:underline text-brand-blue font-500">support@hyrento.com</a>{t("direct_conversation_desc_suffix")}
                 </p>
               </div>
             </div>

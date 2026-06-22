@@ -29,7 +29,7 @@ export function WhatIsSection() {
       <div className="mb-16">
         <Image
           src={SYSTEM_PREVIEW_IMAGE}
-          alt="CarRental.digital website and rental management platform preview"
+          alt="HyRento website and rental management platform preview"
           width={2400}
           height={1792}
           sizes="(min-width: 1280px) 1024px, 100vw"

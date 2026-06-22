@@ -7,7 +7,7 @@ const miniBrochures = [
     pages: "8-10 Pages",
     languages: ["EN", "DE", "FR", "ES", "NL"],
     size: "2.4 MB",
-    pdfUrl: "/downloads/CarRental_Product_Overview.pdf"
+    pdfUrl: "/downloads/HyRento_Product_Overview.pdf"
   },
   {
     title: "Platform Features Deep Dive",
@@ -15,7 +15,7 @@ const miniBrochures = [
     pages: "12-16 Pages",
     languages: ["EN", "DE"],
     size: "4.1 MB",
-    pdfUrl: "/downloads/CarRental_Platform_Deep_Dive.pdf"
+    pdfUrl: "/downloads/HyRento_Platform_Deep_Dive.pdf"
   },
   {
     title: "Pricing & Plans Guide",
@@ -23,7 +23,7 @@ const miniBrochures = [
     pages: "4-6 Pages",
     languages: ["EN", "DE", "FR", "ES", "NL"],
     size: "1.8 MB",
-    pdfUrl: "/downloads/CarRental_Pricing_Guide.pdf"
+    pdfUrl: "/downloads/HyRento_Pricing_Guide.pdf"
   }
 ];
 

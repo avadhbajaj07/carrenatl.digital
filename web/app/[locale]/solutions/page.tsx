@@ -8,7 +8,7 @@ import { SectionWrapper } from "@/components/shared/SectionWrapper";
 
 export const metadata: Metadata = {
   title: "Solutions — For Every Fleet Size & Type",
-  description: "Whether you run a small local fleet, a multi-brand group, luxury rentals, or airport shuttle operations, CarRental.digital adapts to your business model.",
+  description: "Whether you run a small local fleet, a multi-brand group, luxury rentals, or airport shuttle operations, HyRento adapts to your business model.",
 };
 
 const solutions = [
@@ -16,7 +16,7 @@ const solutions = [
     id: "small",
     icon: Car,
     title: "Small Fleet (20–50 Vehicles)",
-    description: "You run a lean operation and every hour counts. CarRental.digital gives you a professional online presence, automated bookings, and a management system that removes the admin load from your day. You can handle more customers with the same team.",
+    description: "You run a lean operation and every hour counts. HyRento gives you a professional online presence, automated bookings, and a management system that removes the admin load from your day. You can handle more customers with the same team.",
     highlights: ["Go live in 48 hours", "Direct domain booking site", "Electronic signatures", "Standard reporting"]
   },
   {
@@ -44,7 +44,7 @@ const solutions = [
     id: "luxury",
     icon: Award,
     title: "Luxury Rental Businesses",
-    description: "Your vehicles are premium. Your booking experience should match. CarRental.digital gives you a polished, professional website and booking flow that matches the expectations of high-value customers.",
+    description: "Your vehicles are premium. Your booking experience should match. HyRento gives you a polished, professional website and booking flow that matches the expectations of high-value customers.",
     highlights: ["High-resolution photos", "Custom damage inspection logs", "Hold security deposits", "Polished client portal"]
   },
   {
@@ -69,7 +69,7 @@ export default function SolutionsPage() {
             Whatever the Size. However You Operate. We Have Your System.
           </h1>
           <p className="text-body-lg font-body text-text-secondary">
-            CarRental.digital is designed to adjust to your workflow. We support operators across the US and Europe with tools customized for fleet scale and business model.
+            HyRento is designed to adjust to your workflow. We support operators across the US and Europe with tools customized for fleet scale and business model.
           </p>
         </div>
       </section>

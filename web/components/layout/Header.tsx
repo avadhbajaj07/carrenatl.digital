@@ -82,10 +82,7 @@ export function Header() {
               </div>
               <div className="flex flex-col leading-none">
                 <span className="font-heading font-700 text-brand-navy text-[15px] tracking-tight">
-                  CarRental
-                </span>
-                <span className="font-heading font-600 text-brand-blue text-[13px] tracking-tight">
-                  .digital
+                  HyRento
                 </span>
               </div>
             </Link>

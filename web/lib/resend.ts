@@ -31,17 +31,17 @@ const escapeHtml = (str: string): string =>
 export const sendWelcomeEmail = async (email: string, name: string) => {
   const sanitizedName = escapeHtml(name);
   const htmlContent = `
-    <h1>Welcome to CarRental.digital, ${sanitizedName}!</h1>
+    <h1>Welcome to HyRento, ${sanitizedName}!</h1>
     <p>We are excited to help you automate your car rental operations.</p>
     <p>An onboarding specialist will contact you shortly to schedule your initial setup session.</p>
     <br/>
     <p>Best regards,</p>
-    <p><strong>The CarRental.digital Team</strong></p>
+    <p><strong>The HyRento Team</strong></p>
   `;
 
   return sendEmail({
     to: email,
-    subject: "Welcome to CarRental.digital — Let's Setup Your Fleet!",
+    subject: "Welcome to HyRento — Let's Setup Your Fleet!",
     html: htmlContent
   });
 };

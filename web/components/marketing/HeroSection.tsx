@@ -105,7 +105,7 @@ export function HeroSection() {
           >
             <Image
               src={HERO_DASHBOARD_IMAGE}
-              alt="CarRental.digital dashboard showing fleet and booking operations"
+              alt="HyRento dashboard showing fleet and booking operations"
               width={2400}
               height={1792}
               priority

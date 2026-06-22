@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     q: "Do I need technical knowledge to use the system?",
-    a: "No. The system is designed to be used by non-technical business owners and their staff. If you can use a smartphone or check your email, you can easily navigate and run your operations on CarRental.digital."
+    a: "No. The system is designed to be used by non-technical business owners and their staff. If you can use a smartphone or check your email, you can easily navigate and run your operations on HyRento."
   },
   {
     q: "Can I use my own domain name?",

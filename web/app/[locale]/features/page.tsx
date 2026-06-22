@@ -7,7 +7,7 @@ import { featureImages, type FeatureImageId } from "@/lib/featureImages";
 
 export const metadata: Metadata = {
   title: "Features — All Management Tools",
-  description: "Explore the comprehensive feature modules of CarRental.digital. Fleet management, booking engines, digital contracts, payment links, and CRM tools built for growth.",
+  description: "Explore the comprehensive feature modules of HyRento. Fleet management, booking engines, digital contracts, payment links, and CRM tools built for growth.",
 };
 
 const featureDetails = [
@@ -18,7 +18,7 @@ const featureDetails = [
     emoji: "🚘",
     headline: "Always know exactly where your fleet stands.",
     paragraphs: [
-      "With CarRental.digital, every vehicle in your fleet has its own profile. See status in real time — available, rented, in maintenance, or reserved. Track mileage, service history, damage logs, documents (insurance, registration), and upcoming maintenance schedules. Never lose track of a vehicle again.",
+      "With HyRento, every vehicle in your fleet has its own profile. See status in real time — available, rented, in maintenance, or reserved. Track mileage, service history, damage logs, documents (insurance, registration), and upcoming maintenance schedules. Never lose track of a vehicle again.",
       "Our damage log is exceptionally detailed, allowing your staff to record scratch and dent coordinates on a visual wireframe model of each car and upload inspection photographs directly from their mobile devices."
     ],
     planBadge: "All Plans",
@@ -61,7 +61,7 @@ const featureDetails = [
     emoji: "👤",
     headline: "Every customer. Every rental. Every note. In one place.",
     paragraphs: [
-      "Build real relationships with your renters. CarRental.digital stores the complete profile of every customer — contact details, ID documents, rental history, payment records, and any internal notes your team adds. You can see at a glance who your best customers are, what they rented, and when they're coming back.",
+      "Build real relationships with your renters. HyRento stores the complete profile of every customer — contact details, ID documents, rental history, payment records, and any internal notes your team adds. You can see at a glance who your best customers are, what they rented, and when they're coming back.",
       "Verify driver details with our document vault. Upload secure, encrypted copies of driving licenses, international permits, and passports. Automatically flag problematic renters using our global security warning system."
     ],
     planBadge: "All Plans",
@@ -83,7 +83,7 @@ const featureDetails = [
     emoji: "✍️",
     headline: "Digital contracts. Signed in seconds. Stored forever.",
     paragraphs: [
-      "No more printing, scanning, or filing paper agreements. CarRental.digital generates rental agreements automatically based on the booking — pre-filled with vehicle info, customer details, rental dates, and pricing. The customer signs digitally on any device. The signed document is saved permanently and accessible anytime.",
+      "No more printing, scanning, or filing paper agreements. HyRento generates rental agreements automatically based on the booking — pre-filled with vehicle info, customer details, rental dates, and pricing. The customer signs digitally on any device. The signed document is saved permanently and accessible anytime.",
       "Fully compliant with US e-SIGN and European eIDAS regulations, our contracts are legally binding and include tamper-evident digital seal markers."
     ],
     planBadge: "All Plans",
@@ -104,7 +104,7 @@ const featureDetails = [
     emoji: "💳",
     headline: "Get paid faster. Track every penny.",
     paragraphs: [
-      "CarRental.digital handles all payment flows — deposits, pre-authorizations, balance payments, refunds, and late fees. Issue invoices automatically, send payment links by email or SMS, and accept major payment methods. Multi-currency support built in for businesses operating across borders.",
+      "HyRento handles all payment flows — deposits, pre-authorizations, balance payments, refunds, and late fees. Issue invoices automatically, send payment links by email or SMS, and accept major payment methods. Multi-currency support built in for businesses operating across borders.",
       "Stripe integration lets you hold security deposits before keys are handed over, and release them automatically upon return check-in if zero damages are logged."
     ],
     planBadge: "All Plans",
@@ -127,7 +127,7 @@ const featureDetails = [
     emoji: "📈",
     headline: "Stop guessing. Start knowing.",
     paragraphs: [
-      "Your business generates data every day. CarRental.digital turns it into clear, actionable reports. See which vehicles earn the most, which sit idle too long, how revenue compares month to month, and where your customers come from. Make better decisions. Grow faster.",
+      "Your business generates data every day. HyRento turns it into clear, actionable reports. See which vehicles earn the most, which sit idle too long, how revenue compares month to month, and where your customers come from. Make better decisions. Grow faster.",
       "Export clean reports to hand off to accounting or export full vehicle utilisation charts to analyze seasonal fleet trends."
     ],
     planBadge: "All Plans",
@@ -149,7 +149,7 @@ const featureDetails = [
     emoji: "🏢",
     headline: "One system. Multiple branches. Multiple brands.",
     paragraphs: [
-      "Running more than one location? More than one brand? No problem. CarRental.digital supports multi-location and multi-brand setups from a single admin login. Switch between branches, view performance per location, and manage separate vehicle pools — all under the same subscription.",
+      "Running more than one location? More than one brand? No problem. HyRento supports multi-location and multi-brand setups from a single admin login. Switch between branches, view performance per location, and manage separate vehicle pools — all under the same subscription.",
       "Track vehicle transfer logs when a car is picked up at location A and dropped off at location B. Control staff roles and branch assignments easily."
     ],
     planBadge: "Professional & Enterprise Plans",
@@ -170,7 +170,7 @@ const featureDetails = [
     emoji: "🔔",
     headline: "Your business runs — even when you're not at your desk.",
     paragraphs: [
-      "CarRental.digital automates the repetitive communication your team handles every day. Booking confirmations, payment reminders, contract signing requests, return reminders, and review requests — all sent automatically at the right moment, branded as your business.",
+      "HyRento automates the repetitive communication your team handles every day. Booking confirmations, payment reminders, contract signing requests, return reminders, and review requests — all sent automatically at the right moment, branded as your business.",
       "Setup custom templates for email, SMS, and WhatsApp alerts to notify customers of booking changes, key pick-ups, and invoice due dates."
     ],
     planBadge: "All Plans (Templates customizable on Pro/Ent)",
@@ -200,7 +200,7 @@ export default function FeaturesPage() {
             Every Tool Your Rental Business Needs. Nothing You Don&apos;t.
           </h1>
           <p className="text-body-lg font-body text-text-secondary">
-            CarRental.digital is a complete management system for car rental operators. Below is a full list of what&apos;s included in your subscription — organized by function.
+            HyRento is a complete management system for car rental operators. Below is a full list of what&apos;s included in your subscription — organized by function.
           </p>
         </div>
       </section>

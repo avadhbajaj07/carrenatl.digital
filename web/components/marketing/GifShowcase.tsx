@@ -78,7 +78,7 @@ export function GifShowcase() {
                     <div className="w-2 h-2 rounded-full bg-green-500/80" />
                   </div>
                   <div className="flex-1 bg-slate-900 border border-slate-850 rounded text-[9px] text-slate-500 font-mono text-center truncate py-0.5">
-                    app.carrental.digital/demo/{item.slug}
+                    app.hyrento.com/demo/{item.slug}
                   </div>
                 </div>
 
