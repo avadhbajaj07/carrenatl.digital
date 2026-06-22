@@ -29,7 +29,6 @@ const platformLinks = [
   { key: "pricing", href: "/pricing" },
   { key: "solutions", href: "/solutions" },
   { key: "system_demo", href: "/demo" },
-  { key: "downloads", href: "/downloads" },
 ];
 
 const companyLinks = [
@@ -39,7 +38,6 @@ const companyLinks = [
 
 const supportLinks = [
   { key: "contact_us", href: "/contact" },
-  { key: "support_line", href: "tel:+18005550100" },
 ];
 
 export function Footer() {
@@ -81,7 +79,6 @@ export function Footer() {
                 </a>
               ))}
             </div>
-            <p className="text-[13px] font-body" style={{ color: "rgba(255,255,255,0.5)" }}>{t("markets")}</p>
           </div>
 
           {/* Column 2 — Platform */}

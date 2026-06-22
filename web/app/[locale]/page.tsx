@@ -1,13 +1,11 @@
 import { HeroSection } from "@/components/marketing/HeroSection";
 import { ProblemBand } from "@/components/marketing/ProblemBand";
 import { WhatIsSection } from "@/components/marketing/WhatIsSection";
-import { FeatureTabs } from "@/components/marketing/FeatureTabs";
 import { HowItWorks } from "@/components/marketing/HowItWorks";
 import { SocialProof } from "@/components/marketing/SocialProof";
 import { SupportBand } from "@/components/marketing/SupportBand";
 import { PricingSection } from "@/components/marketing/PricingSection";
 import { FaqSection } from "@/components/marketing/FaqSection";
-import { DownloadStrip } from "@/components/marketing/DownloadStrip";
 import { FooterCTABand } from "@/components/marketing/FooterCTABand";
 import { StickyMobileCTA } from "@/components/shared/StickyMobileCTA";
 
@@ -18,13 +16,11 @@ export default function Home() {
       <HeroSection />
       <ProblemBand />
       <WhatIsSection />
-      <FeatureTabs />
       <HowItWorks />
       <SocialProof />
       <SupportBand />
       <PricingSection />
       <FaqSection />
-      <DownloadStrip />
       <FooterCTABand />
 
       {/* Persistent global CTAs */}

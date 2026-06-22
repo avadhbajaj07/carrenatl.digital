@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { Check, X, ChevronDown, ChevronUp } from "lucide-react";
 import { PricingCard, PricingPlanFeature } from "../shared/PricingCard";
 import { SectionWrapper } from "../shared/SectionWrapper";
@@ -185,8 +185,8 @@ export function PricingSection() {
         >
           <span>
             {showComparison 
-              ? "Hide full feature comparison table" 
-              : "Not sure which plan? See the full feature comparison table"}
+              ? "Hide feature comparison" 
+              : "See the full feature comparison table"}
           </span>
           {showComparison ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
         </button>
@@ -206,7 +206,7 @@ export function PricingSection() {
             </thead>
             <tbody className="divide-y divide-bg-subtle">
               {comparisonData.map((cat, catIdx) => (
-                <span key={catIdx} className="table-row-group">
+                <Fragment key={catIdx}>
                   <tr className="bg-slate-50 border-y border-bg-border">
                     <td colSpan={4} className="py-2.5 px-5 font-heading font-700 text-[11px] text-brand-navy uppercase tracking-wider">
                       {cat.category}
@@ -240,7 +240,7 @@ export function PricingSection() {
                       </td>
                     </tr>
                   ))}
-                </span>
+                </Fragment>
               ))}
             </tbody>
           </table>

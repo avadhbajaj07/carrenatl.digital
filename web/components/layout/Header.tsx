@@ -63,25 +63,6 @@ export function Header() {
 
   return (
     <>
-      {/* Top announcement bar */}
-      <div className="bg-brand-navy text-white text-xs py-2 px-4 flex items-center justify-between">
-        <span className="flex items-center gap-2">
-          🇺🇸 🇪🇺{" "}
-          <span className="opacity-80">
-            Serving US &amp; European Markets | 24/7 Support:{" "}
-            <a href="tel:+18005550100" className="underline hover:opacity-100 opacity-70 transition-opacity">
-              +1 800 555 0100
-            </a>
-          </span>
-        </span>
-        <div className="hidden sm:flex items-center gap-3">
-          <span className="flex items-center gap-1 opacity-70">
-            <span className="w-2 h-2 bg-online-dot rounded-full inline-block animate-pulse" />
-            Support Online
-          </span>
-        </div>
-      </div>
-
       {/* Main sticky header */}
       <header
         className={cn(
@@ -201,12 +182,6 @@ export function Header() {
                 </AnimatePresence>
               </div>
 
-              <Link
-                href="/login"
-                className="hidden lg:inline-flex items-center px-4 py-2 text-btn font-heading font-600 text-text-secondary border border-bg-border rounded-md hover:bg-bg-soft transition-all duration-150"
-              >
-                {t("btn_login")}
-              </Link>
               <Link
                 href="/demo"
                 className="inline-flex items-center px-4 py-2 text-btn font-heading font-600 text-white bg-brand-green hover:bg-brand-green-hover rounded-full shadow-btn-green transition-all duration-200"
